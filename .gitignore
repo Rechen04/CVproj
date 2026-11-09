@@ -1,0 +1,35 @@
+# Local system and Python environments
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.download-venv/
+.env
+.env.*
+
+# Downloaded dependencies, datasets, model weights and generated training output
+offline_bundle/
+data/
+weights/
+cache/
+results*/
+assets/
+*.zip
+*.tar
+*.tar.gz
+*.whl
+*.pt
+*.pth
+*.safetensors
+*.ply
+*.mp4
+
+# Machine-specific deployment state and process files
+**/training/deployment.json
+**/training/status.json
+**/training/*.log
+**/training/*.pid
+**/training/*.lock
+*.tmp
